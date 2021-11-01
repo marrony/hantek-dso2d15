@@ -1,0 +1,9 @@
+Run the scripts under linux or cygwin.
+
+Extract
+- Run ./extract.sh "dso3kb_MyPackage.upk"
+- It will decrypt and extract everything into "MyPackage" folder.
+
+Build
+- Run ./build.sh "MyPackage", where MyPackage is a folder containing the "update" folder.
+- It will compress, encrypt and create "dso3kb_MyPackage.upk" file
